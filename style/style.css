@@ -227,7 +227,7 @@ footer {
 @media screen and (min-width: 720px) {
 	.hero {
     margin-top: 4rem;
-		margin-bottom: 2rem;
+		margin-bottom: 4rem;
 	}
 
 	.hero__nav {
@@ -245,6 +245,10 @@ footer {
 		padding: 0;
 		transform: initial;
 		transition: initial;
+	}
+
+	.hero__nav__list__link {
+		color: hsl(236, 13%, 42%);
 	}
 
 	.hero__menu-icon {
@@ -315,6 +319,6 @@ footer {
   }
 
   footer {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
